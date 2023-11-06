@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 header{
     padding: 16px 0;
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #021b2b;
+    color: #b10c43;
 }
 
 header nav li{
@@ -18,7 +19,7 @@ header nav li{
 }
 
 header nav li a{
-    color: #ecf0f1;
+    color: #b10c43;
     text-decoration: none;
 }
 
@@ -63,12 +64,12 @@ section .container{
 
 section{
     padding: 24px 0;
-    color: #182c61;
+    color: #021b2b;
 }
 
 section h2{
     margin-bottom: 16px;
-    color: #182c61;
+    color: #021b2b;
 }
 
 
@@ -78,7 +79,9 @@ section p{
 }
 
 .store-front{
-    margin-right: 32px;
+    height: 500px;
+    margin-right: 70px;
+    margin-top: 30px;
 }
 
 .social-links img{
@@ -122,22 +125,23 @@ section h3{
 }
 
 form button{
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #021b2b;
+    color: #b10c43;
     border: none;
     cursor: pointer;
 }
 
 form button:hover{
-    background-color: #314fa1;
+    background-color: #b10c43;
+    color: #021b2b;
 }
 
 input:focus, textarea:focus{
-    outline-color: #182c61;
+    outline-color: #021b2b;
 }
 
 footer{
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #021b2b;
+    color: #b10c43;
     padding: 16px 0;
 }
